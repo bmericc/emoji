@@ -1,6 +1,6 @@
 <?php
-require_once MYBB_ROOT.$mybb->settings['tapatalk_directory'].'/emoji/emoji.php';
-class tapatalkEmoji
+require_once 'emoji.php';
+class Emoji
 {
 	static public function covertEmojiToName($data) {   	
     	$data = emoji_docomo_to_unified($data);   # DoCoMo devices
