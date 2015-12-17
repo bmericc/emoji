@@ -22,6 +22,8 @@ function jqemoji(str){
 
 	console.log(str);
 
+	if(!str) return false;
+
 	var haut = 0;
 	var n = 0;
 	CPstring = '';
